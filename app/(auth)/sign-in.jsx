@@ -43,7 +43,7 @@ const SignIn = () => {
     <SafeAreaView className="bg-primary h-full">
       <ScrollView>
         <View
-          className="w-full flex justify-center min-h-full px-4 my-6"
+          className="w-full justify-center h-full px-4 my-6"
           style={{
             minHeight: Dimensions.get("window").height - 100,
           }}
@@ -51,7 +51,7 @@ const SignIn = () => {
           <Image
             source={images.recivonobg}
             resizeMode="contain"
-            className="w-[115px] h-[34px]"
+            className="w-[115px] h-[35px]"
           />
 
           <Text className="text-2xl font-semibold text-white mt-10 font-psemibold">
